@@ -1,0 +1,113 @@
+<DOCTYPE! html>
+<html>
+<title>
+  Anilo Carbon Fiber Rings
+</title>
+<head>
+<link type="text/css" href="style.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+var container;
+var ypos;
+function parralax (){
+
+  ypos = window.pageYOffset;
+  container = document.getElementById('anilo');
+
+  container.style.top  = (ypos *.2) + 'px';
+    }
+    window.addEventListener("scroll",parralax);
+
+</script>
+<script type="text/javascript">
+var container;
+var ypos;
+function parralax1 (){
+
+  ypos = window.pageYOffset;
+  container = document.getElementById('banner');
+
+  container.style.top  = (ypos *.2) + 'px';
+    }
+    window.addEventListener("scroll",parralax1);
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+   var scroll_start = 0;
+   var startchange = $('.navbar');
+   var offset = startchange.offset();
+   $(document).scroll(function() {
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.navbar').css('background-color', '#333');
+          $('.navbar').css('opacity', '.6');
+          $('.navbar').css('box-shadow', '3px 3px 5px black');
+       } else {
+          $('.navbar').css('background-color', 'transparent');
+          $('.navbar').css('opacity', '1');
+          $('.navbar').css('box-shadow', '');
+       }
+   });
+});
+</script>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Da|Dosis|Poiret+One" rel="stylesheet">
+</head>
+<body>
+<div class="navbar">
+  <div class="logocon">
+  <div class="logo"><a href="index.html">Anilo</a></div>
+  <div class="logo2">Carbon Fiber Rings</div>
+  </div>
+  <ul>
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="index.html">Shop</a>
+    </li>
+    <li>
+      <a href="about.html">About</a>
+    </li>
+    <li>
+      <a href="index.html">Our Rings</a>
+    </li>
+  </ul>
+</div>
+<div class="anilocontain">
+<div id="anilo">
+  Anilo
+  <div class="anilo2">Carbon Fiber Rings</div>
+</div>
+</div>
+
+<div class="kickstart">
+  Check out our Kickstarter! Pre-order a ring and get a sweet deal!
+  <div class="kickstart1">    </div>
+    <div class="grid">
+        <div class="itemcon">
+      <div class="item">
+      </div>
+      </div>
+        <div class="itemcon">
+      <div class="item1">
+
+      </div>
+      </div>
+              <div class="itemcon">
+      <div class="item2">
+
+      </div>
+      </div>
+              <div class="itemcon">
+      <div class="item3">
+
+      </div>
+      </div>
+    </div>
+
+  <div id="banner"></div>
+</div>
+</body>
+</html>
+</DOCTYPE! html>

@@ -1,0 +1,215 @@
+a{
+  text-decoration: none;
+  color: #98e0f6;
+  transition-duration: .5s;
+  text-shadow: 1px 1px black;
+}
+
+a:hover{
+  text-decoration: none;
+  font-size: 120%;
+  transition-duration: .5s;
+}
+
+.anilocontain{
+  display:block;
+  text-align: center;
+  width: 100%;
+  background-image: url('background.JPG');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#anilo{
+  position: relative;;
+  font-family: 'Dosis',sans-serif;
+  font-size: 500%;
+  padding-top: 300px;
+  color: white;
+}
+
+.anilo2{
+  position: relative;;
+  font-family: 'poiret one',sans-serif;
+  font-size: 50%;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  background-position: cover;
+  height: 2000px;
+}
+
+.navbar{
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+  z-index: 100;
+  transition-duration: .5s;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+  float: right;
+  list-style: none;
+  margin: auto;
+  text-decoration: none;
+  padding: 15px;
+  margin-right: 5%;
+}
+
+.anilo{
+  padding-top: 300;
+}
+
+.logocon{
+  float: left;
+  margin-top: 10px;
+}
+
+.logo a{
+  font-size: 170%;
+  font-family: 'poiret one';
+}
+
+.logo2{
+  font-size: 120%;
+  font-family: 'poiret one';
+
+}
+
+.kickstart{
+  text-align: center;
+  width: 100%;
+  padding-top: 200px;
+  font-size: 200%;
+  font-family: 'Poiret one',sans-serif;
+}
+
+#banner{
+  background-image: url('IMG_1442.JPG');
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.item{
+  margin: auto;
+  background-image: url('plain carbon.jpg');
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+  box-shadow: 3px 3px 3px #333;
+  border-radius: 20px;
+}
+
+.item:hover{
+  margin: auto;
+  opacity: .5;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+  border-radius: 5px;
+}
+
+.item1{
+  margin: auto;
+  background-image: url('red stripe.jpg');
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+    box-shadow: 3px 3px 3px #333;
+      border-radius: 20px;
+}
+
+.item1:hover{
+  margin: auto;
+  opacity: .5;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+  border-radius: 5px;
+}
+
+.item2{
+  margin: auto;
+  background-image: url('silverstripe.jpg');
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+    box-shadow: 3px 3px 3px #333;
+  border-radius: 20px;
+}
+
+.item2:hover{
+  margin: auto;
+  opacity: .5;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+  border-radius: 5px;
+}
+
+.item3{
+  margin: auto;
+  background-image: url('gold stripe.jpg');
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+    box-shadow: 3px 3px 3px #333;
+  border-radius: 20px;
+}
+
+.item3:hover{
+  margin: auto;
+  opacity: .5;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition-duration: .5s;
+  border-radius: 5px;
+}
+
+.itemcon{
+  margin: auto;
+  background-color: #98e0f6;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 20px;
+}
