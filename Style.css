@@ -12,6 +12,19 @@ a:hover{
   color: white;
 }
 
+.about{
+  margin: auto;
+  width: 75%;
+  padding-top: 200px;
+  line-height: 2em;
+}
+
+.text{
+  background-color: #999;
+  border-radius: 20px;
+  padding: 10px;
+}
+
 .anilocontain{
   display:block;
   text-align: center;

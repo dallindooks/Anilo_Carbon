@@ -2,9 +2,61 @@
 <html>
 <title></title>
 <head>
-
+  <script type="text/javascript">
+  $(document).ready(function(){
+     var scroll_start = 0;
+     var startchange = $('.navbar');
+     var offset = startchange.offset();
+     $(document).scroll(function() {
+        scroll_start = $(this).scrollTop();
+        if(scroll_start > offset.top) {
+            $('.navbar').css('background-color', '#333');
+            $('.navbar').css('opacity', '.6');
+            $('.navbar').css('box-shadow', '3px 3px 5px black');
+         } else {
+            $('.navbar').css('background-color', 'transparent');
+            $('.navbar').css('opacity', '1');
+            $('.navbar').css('box-shadow', '');
+         }
+     });
+  });
+  </script>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Da|Dosis|Poiret+One" rel="stylesheet">
+<link type="text/css" href="style.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
+  <div class="navbar">
+    <div class="logocon">
+    <div class="logo"><a href="index.html">Anilo</a></div>
+    <div class="logo2">Carbon Fiber Rings</div>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html">Our Rings</a>
+      </li>
+      <li>
+        <a href="shop.html">Shop</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+    </ul>
+  </div>
+
+<div class="about">
+  <div class="text">
+  Hey guys! This is a little snippet about myself and about Anilo. My name is Dallin and I'm a student currently living in Utah. I'm studying aerospace engineering and I also made this business
+  because I absolutely love carbon fiber. I also really love the rings I make. I originally started making carbon fiber rings about a year ago with my brother.
+  He also has a carbon fiber ring business and has been extremely successful and is actually a partner of Anilo Carbon. He showed me the ropes and helped me machine
+  my first rings. Then it turned into a real job as I began making most of his customers orders.<br /><br />
+  I got really good at making them and I could produce them very quickly. I now take pride in every ring I make and quality is my goal.<br /><br />
   
+
+  </div>
+</div>
 </body>
 </html>
