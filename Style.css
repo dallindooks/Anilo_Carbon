@@ -9,6 +9,7 @@ a:hover{
   text-decoration: none;
   font-size: 120%;
   transition-duration: .5s;
+  color: white;
 }
 
 .anilocontain{
@@ -40,7 +41,7 @@ body{
   width: 100%;
   margin: 0;
   background-position: cover;
-  height: 2000px;
+  font-family: 'Poiret one', serif;
 }
 
 .navbar{
@@ -53,7 +54,7 @@ body{
 }
 
 ul{
-    list-style: none;
+  list-style: none;
 }
 
 li{
@@ -87,10 +88,12 @@ li{
 
 .kickstart{
   text-align: center;
-  width: 100%;
+  width: 80%;
   padding-top: 200px;
   font-size: 200%;
   font-family: 'Poiret one',sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #banner{
@@ -212,4 +215,28 @@ li{
   background-repeat: no-repeat;
   background-position: right;
   border-radius: 20px;
+}
+
+.footer{
+  width: 100%;
+  background-color: #333;
+  opacity: .8;
+  height: 45px;
+  text-align: right;
+  margin-top: 230px;
+  color: white;
+  font-family: 'Poiret one', sans-serif;
+}
+
+
+.first{
+  margin: auto;
+}
+
+.second{
+  margin: auto;
+}
+
+img{
+  border-radius: 15px;
 }

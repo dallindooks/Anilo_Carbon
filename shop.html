@@ -2,9 +2,88 @@
 <title>
 </title>
 <head>
-
+  <link type="text/css" href="style.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Da|Dosis|Poiret+One" rel="stylesheet">
+  <script type="text/javascript">
+  $(document).ready(function(){
+     var scroll_start = 0;
+     var startchange = $('.navbar');
+     var offset = startchange.offset();
+     $(document).scroll(function() {
+        scroll_start = $(this).scrollTop();
+        if(scroll_start > offset.top) {
+            $('.navbar').css('background-color', '#333');
+            $('.navbar').css('opacity', '.6');
+            $('.navbar').css('box-shadow', '3px 3px 5px black');
+         } else {
+            $('.navbar').css('background-color', 'transparent');
+            $('.navbar').css('opacity', '1');
+            $('.navbar').css('box-shadow', '');
+         }
+     });
+  });
+  </script>
 </head>
 <body>
+  <div class="navbar">
+    <div class="logocon">
+    <div class="logo"><a href="index.html">Anilo</a></div>
+    <div class="logo2">Carbon Fiber Rings</div>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html">Our Rings</a>
+      </li>
+      <li>
+        <a href="shop.html">Shop</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+    </ul>
+  </div>
+  <div class="grid">
+  <div class="first">
+    <img src="red stripe.jpg" />
+    <div>
+      Red Striped Carbon Fiber Ring<br />
+      $95.00
+    </div>
+  </div>
+  <div class="second">
+    <img src="plain carbon.jpg" />
+    <div>
+      Plain Carbon Fiber Ring<br />
+      $95.00
+    </div>
+  </div>
 
+</div>
+<div class="grid">
+  <div class="first">
+    <img src="silverstripe.jpg" />
+    <div>
+    Silver Striped Carbon Fiber Ring<br />
+    $95.00
+  </div>
+</div>
+  <div class="second">
+    <img src="gold stripe.jpg" />
+    <div>
+    Gold Striped Carbon Fiber Ring<br />
+    $95.00
+  </div>
+  </div>
+</div>
+
+
+</div>
+<div class="footer">
+  @AniloCarbon
+</div>
 </body>
 </html>
